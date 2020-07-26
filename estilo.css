@@ -1,0 +1,144 @@
+* { /*reset do css */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+  }
+  
+
+body {
+    background-color:lightyellow;
+    background-size: auto 100vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*CABECALHO*/
+
+header{
+    font-size: 35px;
+    padding: 30px;
+    text-align: center;   
+}
+
+
+.capa{
+    border: 3px solid #ffde59; /*border so de teste pra ver o posicionamento da logo */
+    max-height: auto;
+    max-width: auto;
+    position: sticky;
+    
+}
+
+/* retirado
+.titulo{
+    font-family: 'Mrs Saint Delafield', cursive;
+    color:#ffde59;
+    font-weight: 500;
+}
+
+*/
+
+/* MENU DE NAVEGACAO */
+
+.menu{
+	position: relative; ;
+	top: 110px;
+}
+
+nav li{
+	display: inline-block;
+    margin: 0 0 0 15px;
+    position: center;
+}
+
+nav a{	
+    color: #67e0f1;
+    display: flex;
+    float: left;
+    font-size: 22px;
+    font-weight: italic;
+    justify-content: space-around;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+}
+
+nav a:hover{
+	color: #ffde59;
+    text-decoration: underline;  
+}
+
+/* ENTRE CABECALHO E PRINCIPAL*/
+
+.banner {
+    height: auto;
+    width: 100%;  
+    object-fit: fill;
+}
+ 
+/*CONTEUDO*/
+
+
+.titulo-principal{
+    color:#67e0f1;
+    font-size: 2em ;
+	margin: 0 0 1em;
+    text-align: center;
+}
+
+
+.perfil img{
+    border-radius: 50%; 
+    clip-path: circle();
+    height: auto;
+    max-height: 300px;
+    max-width: 200px;
+    width: auto;     
+}
+
+.perfil{
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal {
+    margin: 0 auto;
+	padding: 3em 0;
+	width: 940px;	
+}
+
+ .principal p {
+ 	margin: 0 0 1em;
+}
+
+/*MIDIAS SOCIAIS icones: por algum motivo nao ta aparecendo no html :( */
+
+.contato .icons {
+    text-align: center;
+  }
+
+  .contato a {
+    color: #ff87d1;
+    font-size: 6em;
+    transition: text-shadow 1s;
+  }
+  
+  .contato a:active,
+  .contato a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, .5); /*efeito luzinha no icone qdo passa o mouse */
+   }
+
+
+/*RODAPE*/
+
+footer{
+    background-color:#ff87d1;
+    padding:40px 0;
+}
+
+.copyright{
+	color: whitesmoke;
+	font-size: 13px;
+    margin: 20px 0;
+    text-align: center;
+}
